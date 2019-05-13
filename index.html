@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>Nejc & Tinkara's Awesome Restaurant Picker</title>
+</head>
+
+<body align="center">
+<h1>Sup babe.</h1>
+<p>Dans lahka grema jest v:</p>
+<div id="rest_name">
+<script type="text/javascript">
+var myArray = [
+  "OnThai",
+  "Sarajevo '84",
+  "Verace",
+  "Fanny & Mary",
+  "Zbornica",
+  "Parma",
+  "Slovenska Hiša",
+  "Pop's Place",
+  "Ljubljanski Dvor",
+  "Allegria",
+  "Wok",
+  "McDonalds",
+  "Hiša Pod Gradom",
+  "Skriti Kot",
+  "Abi Falafel",
+  "Skuhna",
+  "Han",
+  "Zhong Hua",
+  "Cantina Mexicana",
+  "TLOFT",
+  "Chutys",
+  "Moysushi",
+  "Tokyo Pikink",
+  "Bazilika",
+  "Dabuda",
+  "Dežela Okusov",
+  "Roza Slon"
+];
+
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+
+document.getElementById('rest_name').innerHTML += randomItem;
+</script>
+</div>
+</body>
+</html>
